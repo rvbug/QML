@@ -44,6 +44,10 @@ These are called as quantum functions which has some constrains which is beyond 
 
 
 ---
-# Article & Links
+# Reference & Links
+
+* Pennylane [Pennylane](https://pennylane.ai/)
+* 
+
 
 
