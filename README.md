@@ -1,4 +1,7 @@
-# QuantumML
+
+
+
+# TOC
 
 ---
 # Introduction
@@ -41,7 +44,7 @@ Quantum Circuits are collection of quantum gates which are interconnected by qua
 These are called as quantum functions which has some constrains which is beyond the scope of this article
 
 
-
+# QNLP
 
 ---
 # Reference & Links
