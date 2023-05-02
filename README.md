@@ -47,10 +47,11 @@ These are called as quantum functions which has some constrains which is beyond 
 # QNLP
 
 ---
-# Reference & Links
+# References
 
 * Pennylane [Pennylane](https://pennylane.ai/)
-* 
+* [arXiv](https://arxiv.org/)  
+* [Paper with Code](https://paperswithcode.com/)  
 
 
 
