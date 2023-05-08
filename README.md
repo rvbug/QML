@@ -3,6 +3,9 @@
 
 # TOC
 
+- Intro to basic QML
+- Covers `QNLP` (Quantum NLP)
+
 ---
 # Introduction
 
