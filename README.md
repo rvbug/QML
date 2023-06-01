@@ -8,12 +8,6 @@ Welcome to the strange world of "Quantum Phyics". This will be very difficult bu
 
 "Beauty of unknown"...
 
-
-# TOC
-
-- Intro to basic QML
-- Covers `QNLP` (Quantum NLP)
-
 ---
 # Basics
 
