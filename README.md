@@ -1,5 +1,12 @@
 
+# Introduction
 
+This is my jouney of learning Quantum ML specifically QNLP.  
+You will have to learn lot of things and some time it will be very strange when you hear things like quantum superposition or entanglement. Best way is to understand is by something which I learnt from Einstein - [Thought Experiment](https://en.wikipedia.org/wiki/Einstein%27s_thought_experiments) & Intution.
+
+Welcome to the strange world of "Quantum Phyics"
+
+We will be using PennyLane - A cross platform python library to program Quantum Circuits. This library comes with default simulator devices and can integarate with external software and hardware to run quantum circuits.
 
 # TOC
 
@@ -7,34 +14,36 @@
 - Covers `QNLP` (Quantum NLP)
 
 ---
-# Introduction
+# Basics
+
+Differential Programming - A paradiam where programs which are differential  
+Quantum Computation - Execution of 1 or more Quantum Circuits  
+Quantum Circuits (QC)- Collections of quantum gates interconnected by quantum wires   
+Quantum Gates (QG) - Also known as  quantum gate is a basic quantum circuit operating on a small number of qubits  
+Qubits - Quantum bits is the basic unit of information similar to bits in classical computing helps in storing information. They have more than 2 states unlike bits which are in 0's or 1's   
+
+In Pennylane - these Quantum Circuits are represented as Quantum Node (QNode) and it is used to declare Quantum Circuit + attach to a specific device for execution.
+
+Pennylane's python library does circuit evaluation + gradient calculations.
 
 
----
-# Prerequisties
 
-
-
-
----
-# Details
 
 There are two types of circuits 
 
-- Standard - These types are fixed and cannot be trained.
-- Variational - Are parameterised and could be trained 
+* Standard - These types are fixed and cannot be trained.
+* Variational - Parameterised and could be trained 
 
-### Variational Circuits 
-
+## Variational Circuts
 These circuits are adaptable and trained using classical optimization algorithms by querying to quantum device. It used the following three components   
 
 - An initial state which is usually fixed (zero state)
 
-- Quantum circuits \\(U(\theta) \\) with free parameters \\(\theta \\). Think of this as trainable parameters to optimize a cost function. Cost function are scalar quantity.
+- Quantum circuits \$U(\Theta)$ with free parameters \$\Theta$. Think of this as trainable parameters to optimize a cost function where Cost function is a scalar quantity.
 
-    These are defined as  \\( \theta = (\theta_1, \theta_2 , ..., \theta_n) \\)  
+    These are defined as  \$\Theta = (\Theta_1, \Theta_2 , ..., \Theta_n)$
 
-- Measurement - Observations as the output of a quantum circuits \\(\hat B\\). Could be at each wire in a circuit or at a collection of wires 
+- Measurement - Observations as the output of a quantum circuits \$(\hat B$). Could be at each wire in a circuit or at a collection of wires 
 
 ### Expectation Values
 These are probability values of an experiment usually after a preprocessing stage. 
@@ -45,6 +54,9 @@ These are probability values of an experiment usually after a preprocessing stag
 Quantum Circuits are collection of quantum gates which are interconnected by quantum wires operating on small number of qubits.
 
 These are called as quantum functions which has some constrains which is beyond the scope of this article
+
+
+---
 
 
 # QNLP
