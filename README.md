@@ -36,6 +36,7 @@ There are two types of circuits
 * Variational - Parameterised and could be trained 
 
 ## Variational Circuts
+
 These circuits are adaptable and trained using classical optimization algorithms by querying to quantum device. It used the following three components   
 
 - An initial state which is usually fixed (zero state)
@@ -56,6 +57,8 @@ Quantum Circuits are collection of quantum gates which are interconnected by qua
 
 These are called as quantum functions which has some constrains which is beyond the scope of this article
 
+
+There are some common variational circuit architectures which can be used to build complex architectures
 
 ---
 
