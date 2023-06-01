@@ -22,9 +22,14 @@ Quantum Circuits (QC)- Collections of quantum gates interconnected by quantum wi
 Quantum Gates (QG) - Also known as  quantum gate is a basic quantum circuit operating on a small number of qubits  
 Qubits - Quantum bits is the basic unit of information similar to bits in classical computing helps in storing information. They have more than 2 states unlike bits which are in 0's or 1's   
 
+
+
 In Pennylane - these Quantum Circuits are represented as Quantum Node (QNode) and it is used to declare Quantum Circuit + attach to a specific device for execution.
 
 Pennylane's python library does circuit evaluation + gradient calculations.
+
+Quantum Function - A function that describes the wave characterstics of a particle. A quantum circuit is constructed as a special Python function, a quantum circuit function, or quantum function in short. 
+<br>
 
 
 
