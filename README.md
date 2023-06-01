@@ -2,11 +2,12 @@
 # Introduction
 
 This is my jouney of learning Quantum ML specifically QNLP.  
-You will have to learn lot of things and some time it will be very strange when you hear things like quantum superposition or entanglement. Best way is to understand is by something which I learnt from Einstein - [Thought Experiment](https://en.wikipedia.org/wiki/Einstein%27s_thought_experiments) & Intution.
+You will have to learn lot of things and some time it will be very strange when you hear things like quantum superposition or entanglement. Best way is to understand is by Intution and also something very important which I learnt from Einstein when I was young - [Thought Experiment](https://en.wikipedia.org/wiki/Einstein%27s_thought_experiments) 
 
-Welcome to the strange world of "Quantum Phyics"
+Welcome to the strange world of "Quantum Phyics". This will be very difficult but worth learning if you want to understand how the universe works at the subatomic level.
 
-We will be using PennyLane - A cross platform python library to program Quantum Circuits. This library comes with default simulator devices and can integarate with external software and hardware to run quantum circuits.
+"Beauty of unknown"...
+
 
 # TOC
 
@@ -16,6 +17,7 @@ We will be using PennyLane - A cross platform python library to program Quantum 
 ---
 # Basics
 
+PennyLane - A cross platform python library to program Quantum Circuits. This library comes with default simulator devices and can integarate with external software and hardware to run quantum circuits.  
 Differential Programming - A paradiam where programs which are differential  
 Quantum Computation - Execution of 1 or more Quantum Circuits  
 Quantum Circuits (QC)- Collections of quantum gates interconnected by quantum wires   
