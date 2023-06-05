@@ -1,8 +1,9 @@
 
 # Introduction
 
-This is my jouney of learning Quantum ML specifically QNLP.  
-You will have to learn lot of things and some time it will be very strange when you hear things like quantum superposition or entanglement. Best way is to understand is by Intution and also something very important which I learnt from Einstein when I was young - [Thought Experiment](https://en.wikipedia.org/wiki/Einstein%27s_thought_experiments) 
+My jouney of learning Quantum ML...
+
+You will have to learn lot of complex things and it will be very strange trying to understand quantum superposition or entanglement. Best way is to understand is by Intution and also something very important which I learnt from Einstein when I was young - [Thought Experiment](https://en.wikipedia.org/wiki/Einstein%27s_thought_experiments) 
 
 Welcome to the strange world of "Quantum Phyics". This will be very difficult but worth learning if you want to understand how the universe works at the subatomic level.
 
