@@ -21,9 +21,9 @@ dev = qml.device(name="default.qubit", wires=1)
 # create a QNode for the function on device 
 qnode = qml.QNode(qfun, dev)
 print(qml.draw(qnode)())
-
-# X is PauliX and H is Haramard gate
-
-#### output
 # 0: ──X──H─┤  State
+
+## executing function
+qnode()
+#tensor([ 0.70710678+0.j, -0.70710678+0.j], requires_grad=True)
 
