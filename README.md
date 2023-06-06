@@ -1,12 +1,12 @@
 
 # Introduction
 
-Quantum Physics is an exciting fields to learn and an attempt to try and understand the mystries of the universe at sub atomatic level. 
-These are complex topics and best way to understand them is via inutition and [Thought Experiment](https://en.wikipedia.org/wiki/Einstein%27s_thought_experiments) by Einstein.
+Quantum Physics is an exciting fields to learn and this repo is an attempt to try and understand the mystries of the universe at sub atomatic level. 
+These are complex topics and best way to understand them is via inutition and [Thought Experiment](https://en.wikipedia.org/wiki/Einstein%27s_thought_experiments).
 
 Welcome to the strange world of "Quantum Phyics". "Beauty of unknown"...
 
-We will be using Pennylane which is a cross-platform library to program Quantum Circuits. It has a default simulator and can integrate with plethora of external hardware
+We will be using Pennylane which is a cross-platform library to program Quantum Circuits. It has a default simulator and can integrate with plethora of external hardware devices.
 
 ---
 # Foundation
