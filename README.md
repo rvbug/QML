@@ -8,6 +8,8 @@ Welcome to the strange world of "Quantum Phyics". "Beauty of unknown"...
 
 We will be using Pennylane which is a cross-platform library to program Quantum Circuits. It has a default simulator and can integrate with plethora of external hardware devices.
 
+Quantum Mechanics is probabilistic and unpredictable in nature
+
 ---
 # Foundation
   
@@ -16,8 +18,17 @@ Differential Programming - A paradiam where programs which are differential. If 
 Quantum Computation - Execution of 1 or more Quantum Circuits  
 Quantum Circuits (QC)- Collections of quantum gates interconnected by quantum wires   
 Quantum Gates (QG) - Also known as  quantum gate is a basic quantum circuit operating on a small number of qubits  
-Qubits - Quantum bits is the basic unit of information similar to bits in classical computing helps in storing information. They have more than 2 states unlike bits which are in 0's or 1's   
+Qubits - Quantum bits is the basic unit of information similar to bits in classical computing helps in storing information. They can exist in both states (0 & 1) and other states in between and even negative too. 2 states unlike bits which are in 0's or 1's. They are both digital and analog in nature. Analog can create noise in gates and digital has "norm" which they can use to recover from this weakness. Stores electron spin. 
 
+Classic computers are deterministic but QC is probabilistic.
+
+Superposition - Entire quantum system can be in both state simultanourly
+
+Entanglement - Where 2 or more quantum objects are interlinked.
+
+Interference - Similar to wave interference. It is used to control quantum states and amply signal to lead to right answer and canceelling signal which leads to the wrong answer.
+
+Architecture of Quantum Computer
 
 
 In Pennylane - these Quantum Circuits are represented as Quantum Node (QNode) and it is used to declare Quantum Circuit + attach to a specific device for execution.
