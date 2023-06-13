@@ -1,7 +1,7 @@
 
 # Introduction
 
-Quantum Physics is an exciting fields to learn and this repo is an attempt to try and understand the mystries of the universe at sub atomatic level. 
+Quantum Physics is an exciting fields to understand the mystries of the universe at sub atomatic level.
 These are complex topics and best way to understand them is via inutition and [Thought Experiment](https://en.wikipedia.org/wiki/Einstein%27s_thought_experiments).
 
 Welcome to the strange world of "Quantum Phyics". "Beauty of unknown"...
