@@ -7,6 +7,7 @@ These are complex topics and best way to understand them is via inutition and [T
 
 Welcome to the strange world of "Quantum Phyics". "Beauty of unknown"...
 
+
 We will be using Pennylane which is a cross-platform library to program Quantum Circuits. It has a default simulator and can integrate with plethora of external hardware devices.
 
 Quantum Mechanics is probabilistic and unpredictable in nature
