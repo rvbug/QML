@@ -51,7 +51,7 @@ for i in range(steps):
     # update the circuit parameters
     params = opt.step(cost, params)
 
-    if (i + 1) % 5 == 0:
+    if (i + 1) % 20 == 0:
         print("Cost after step {:5d}: {: .7f}".format(i + 1, cost(params)))
 
 print("Optimized rotation angles: {}".format(params))
