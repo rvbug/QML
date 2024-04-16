@@ -100,8 +100,6 @@ device = qml.device('default.qubit', wires=2, shots=1000)
 qnode = qml.QNode(my_quantum_function, device)
 print(qml.draw(qnode)())
 
-
-
 ```
 
 
