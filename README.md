@@ -76,7 +76,36 @@ There are some common variational circuit architectures which can be used to bui
 ---
 
 
-# QNLP
+# QML
+
+```python
+pip install pennylane
+```
+
+Import Libraries, define devide, setup qnode 
+
+```python
+import pennylane as qml
+import matplotlib.pyplot as plt
+
+def my_quantum_function():
+  qml.RZ(0.5, wires=0)
+  qml.CNOT(wires=[0,1])
+  qml.RY(1, wires=1)
+  qml.PauliX(wires=0)
+  qml.Hadamard(wires=0)
+  return qml.expval(qml.PauliZ(1))
+
+device = qml.device('default.qubit', wires=2, shots=1000)
+qnode = qml.QNode(my_quantum_function, device)
+print(qml.draw(qnode)())
+
+
+
+```
+
+
+
 
 ---
 # References
