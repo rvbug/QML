@@ -16,6 +16,10 @@ A cross-platform library to program Quantum Circuits. It has a default simulator
 
 
 # Basics
+
+![image](https://github.com/rvbug/q-gravity/assets/10928536/a6222ef3-fbd3-4cc9-883d-ab2cb9b5fb1f)
+
+
   
 ### Differential Programming 
 A paradiam where programs which are differential. 
