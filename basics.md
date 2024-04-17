@@ -1,11 +1,12 @@
 
-# Inspiration
+# *Beauty of unknown*...
 
-Quantum Mechanics is probabilistic and unpredictable in nature
-Quantum Physics is an exciting fields to understand the mystries of the universe at sub atomatic level.
-These are complex topics and best way to understand them is via inutition and [Thought Experiment](https://en.wikipedia.org/wiki/Einstein%27s_thought_experiments).
 
-Welcome to the strange world of Quantum Gravity.. *Beauty of unknown*...
+# Introduction
+
+Quantum Mechanics is probabilistic and unpredictable in nature.  
+Best way to understand complex topics is via inutition and [Thought Experiment](https://en.wikipedia.org/wiki/Einstein%27s_thought_experiments).
+
 
 
 # PennyLane 
@@ -13,25 +14,36 @@ Welcome to the strange world of Quantum Gravity.. *Beauty of unknown*...
 A cross-platform library to program Quantum Circuits. It has a default simulator and can integrate with plethora of external hardware devices.
 
 
----
-# Foundation
-  
-Differential Programming - A paradiam where programs which are differential. If you have experience in Classical Machine Learning (ML), you would know that choosing a function which is differential will help it to learn.
 
-Quantum Computation - Execution of 1 or more Quantum Circuits  
-Quantum Circuits (QC)- Collections of quantum gates interconnected by quantum wires   
-Quantum Gates (QG) - Also known as  quantum gate is a basic quantum circuit operating on a small number of qubits  
-Qubits - Quantum bits is the basic unit of information similar to bits in classical computing helps in storing information. They can exist in both states (0 & 1) and other states in between and even negative too. 2 states unlike bits which are in 0's or 1's. They are both digital and analog in nature. Analog can create noise in gates and digital has "norm" which they can use to recover from this weakness. Stores electron spin. 
+# Basics
+  
+### Differential Programming 
+A paradiam where programs which are differential. 
+
+### Quantum Computation 
+Execution of 1 or more Quantum Circuits
+
+### Quantum Circuits (QC)
+Collections of quantum gates interconnected by quantum wires   
+
+### Quantum Gates (QG) 
+Also known as  quantum gate is a basic quantum circuit operating on a small number of qubits  
+
+### Qubits 
+Quantum bits is the basic unit of information similar to bits in classical computing helps in storing information. They can exist in both states (0 & 1) and other states in between and even negative too. 2 states unlike bits which are in 0's or 1's. They are both digital and analog in nature. Analog can create noise in gates and digital has "norm" which they can use to recover from this weakness. Stores electron spin. 
 
 Classic computers are deterministic but QC is probabilistic.
 
-Superposition - Entire quantum system can be in both state simultanourly
+### Superposition 
+Entire quantum system can be in both state simultaneously
 
-Entanglement - Where 2 or more quantum objects are interlinked.
+### Entanglement 
+Where 2 or more quantum objects are interlinked.
 
-Interference - Similar to wave interference. It is used to control quantum states and amply signal to lead to right answer and canceelling signal which leads to the wrong answer.
+### Interference 
+Similar to wave interference. It is used to control quantum states and amply signal to lead to right answer and canceelling signal which leads to the wrong answer.
 
-Architecture of Quantum Computer
+<let us draw a diagram> 
 
 
 In Pennylane - these Quantum Circuits are represented as Quantum Node (QNode) and it is used to declare Quantum Circuit + attach to a specific device for execution.
@@ -64,7 +76,7 @@ These circuits are adaptable and trained using classical optimization algorithms
 ### Expectation Values
 These are probability values of an experiment usually after a preprocessing stage. 
  
-\\( f(\theta) \\)  = \\( \braket{0| U(\theta) (\hat B) U(\theta) | 0} \\)  
+\$ (f(\theta))  = \\( \braket{0| U(\theta) (\hat B) U(\theta) | 0} \\$)  
 
 
 Quantum Circuits are collection of quantum gates which are interconnected by quantum wires operating on small number of qubits.
@@ -73,42 +85,6 @@ These are called as quantum functions which has some constrains which is beyond 
 
 
 There are some common variational circuit architectures which can be used to build complex architectures
-
----
-
-
-# QML
-
-```python
-pip install pennylane
-```
-
-Import Libraries, define devide, setup qnode 
-
-```python
-import pennylane as qml
-import matplotlib.pyplot as plt
-
-def my_quantum_function():
-  qml.PauliX(wires=0)
-  qml.CNOT(wires=[0,1])
-  qml.RY(1, wires=1)
-  qml.PauliY(wires=1)   
-  qml.Hadamard(wires=0)
-  qml.RZ(0.5, wires=0)
-  qml.PauliZ(wires=0)
-  return qml.expval(qml.PauliZ(1))
-
-device = qml.device('default.qubit', wires=2, shots=1000)
-qnode = qml.QNode(my_quantum_function, device)
-print(qml.draw(qnode)())
-
-```
-
-
-
-
-
 
 ---
 # References
