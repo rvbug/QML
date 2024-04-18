@@ -22,6 +22,7 @@ This [Book](https://en.wikipedia.org/wiki/The_Science_of_Interstellar) explains 
 
 
 
+# Basics
 
 <img width="666" alt="image" src="https://github.com/rvbug/q-gravity/assets/10928536/777d6cca-3701-4bd8-8a5d-b0b67b733a65">
 
