@@ -23,10 +23,6 @@ Noble Price winer and a theoretical physicist [Kip Thorne](https://en.wikipedia.
 This [Book](https://en.wikipedia.org/wiki/The_Science_of_Interstellar) explains movie's technical details.
 
 
-
-Quantum Gravity (QG) helps describe gravity according to the principles of quantum mechanics and probab;y will help us to understand what happens near black hole and the moment of singularity.
-
-
 # Basics
 
 <img width="666" alt="image" src="https://github.com/rvbug/q-gravity/assets/10928536/777d6cca-3701-4bd8-8a5d-b0b67b733a65">
@@ -34,7 +30,15 @@ Quantum Gravity (QG) helps describe gravity according to the principles of quant
 
 
 <br>
+
+# Quantum Gravity (QG)
+
+Quantum Gravity (QG) helps describe gravity according to the principles of quantum mechanics and probab;y will help us to understand what happens near black hole and the moment of singularity.
+
+
 <br>
+
+
 
 ---
 # References
