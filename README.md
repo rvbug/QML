@@ -42,7 +42,7 @@ Quantum Gravity (QG) helps describe gravity according to the principles of quant
 # Tech Stack
 TBD
 
-<br>
+
 ---
 # References
 
