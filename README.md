@@ -39,8 +39,14 @@ Quantum Gravity (QG) helps describe gravity according to the principles of quant
 <br>
 
 
-# Tech Stack
-TBD
+
+
+# Rust Crates (TBD)
+- quil-rs
+- qcs
+- autograd
+- ndarray
+- nlopt
 
 
 ---
@@ -50,6 +56,12 @@ TBD
 * [Interstellar](https://en.wikipedia.org/wiki/Interstellar_(film))
 * [Thought Experiment](https://en.wikipedia.org/wiki/Einstein%27s_thought_experiments)
 * [Interstellar Visualization](https://www.space.com/27692-science-of-interstellar-infographic.html)
+* [Quil](https://github.com/quil-lang/quil)
+* [quil-rs](https://docs.rs/quil-rs/latest/quil_rs/)
+* [qcs](https://docs.rs/qcs/latest/qcs/)
+* [Autograd](https://docs.rs/autograd/latest/autograd/)
+* [NDArray](https://docs.rs/ndarray/0.15.6/ndarray/)
+* [NLOpt](https://docs.rs/nlopt/latest/nlopt/)
 
 
 
