@@ -58,7 +58,8 @@ All the code are being converted to rust.
 * [qcs](https://docs.rs/qcs/latest/qcs/)
 * [Autograd](https://docs.rs/autograd/latest/autograd/)
 * [NDArray](https://docs.rs/ndarray/0.15.6/ndarray/)
-* [NLOpt](https://docs.rs/nlopt/latest/nlopt/)
+* [NLOpt](https://docs.rs/nlopt/latest/nlopt/)  
+* [roqoqo](https://hqsquantumsimulations.github.io/qoqo_examples/)  
 
 
 
