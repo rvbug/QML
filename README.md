@@ -33,20 +33,16 @@ This [Book](https://en.wikipedia.org/wiki/The_Science_of_Interstellar) explains 
 
 # Quantum Gravity (QG)
 
-Quantum Gravity (QG) helps describe gravity according to the principles of quantum mechanics and probably will help us to understand what happens near black hole and the moment of singularity.
+Quantum Gravity (QG) helps describe gravity according to the principles of quantum mechanics and will help us to understand what happens near black hole and the moment of singularity.
 
 
 <br>
 
 
 
+# Rust (WIP)
+All the code are being converted to rust. 
 
-# Rust Crates (TBD)
-- quil-rs
-- qcs
-- autograd
-- ndarray
-- nlopt
 
 
 ---
