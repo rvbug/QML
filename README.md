@@ -60,6 +60,11 @@ All the code are being converted to rust.
 * [NDArray](https://docs.rs/ndarray/0.15.6/ndarray/)
 * [NLOpt](https://docs.rs/nlopt/latest/nlopt/)  
 * [roqoqo](https://hqsquantumsimulations.github.io/qoqo_examples/)  
+* [Plotter](https://plotters-rs.github.io/book/basic/overview.html)   
+* [Relativity](https://geometry-of-relativity.net/rotations-in-spacetime/)    
+* [rustworkx](https://github.com/Qiskit/rustworkx/tree/main)    
+* [Petgraph](https://docs.rs/petgraph/0.6.4/petgraph/index.html)    
+* [MdBook](https://rust-lang.github.io/mdBook/guide/creating.html)      
 
 
 
