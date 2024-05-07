@@ -46,6 +46,7 @@ Quantum Gravity (QG) helps describe gravity according to the principles of quant
 > ## Essentials
 rustup - Manages rust installation   
 cargo new - create a new binary or library  
+To run - use `cargo run --bin filename` or `cargp run -q --bin filename`  
   
 > ## Print & Format Macros
   Printing is handled by a series of macros defined in std::fmt some of which include. `format!` - writes formatted text to String.   
