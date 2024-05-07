@@ -42,7 +42,7 @@ Quantum Gravity (QG) helps describe gravity according to the principles of quant
 
 
 # Rust (WIP)
-All the code are being converted to rust. 
+Work in progress for migrating the code to Rust.
 
 <br>
 
