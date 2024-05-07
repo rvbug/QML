@@ -35,19 +35,36 @@ This [Book](https://en.wikipedia.org/wiki/The_Science_of_Interstellar) explains 
 # Quantum Gravity (QG)
 
 Quantum Gravity (QG) helps describe gravity according to the principles of quantum mechanics and will help us to understand what happens near black hole and at the moment of singularity.
-
-
 <br>
-
-
 
 # Rust Topics
 <details>
   <summary> Intro to Rust </summary>
 
   ## Basics
+
+> ## Essentials
+rustup - Manages rust installation   
+cargo new - create a new binary or library  
+  
 > ## Print & Format Macros
-  Printing is handled by a series of macros defined in std::fmt some of which include. `format!` - writes formatted text to String.  
+  Printing is handled by a series of macros defined in std::fmt some of which include. `format!` - writes formatted text to String.   
+  Macros expand the coee further and it generates additional code.  
+  
+  ```rust
+  // {:?} - Is the debug print 
+  let l = 42;
+  println!("The debug version : {life:?}")
+  println!("The print version : {life}")
+
+```
+
+> ## Control flow & Loop
+
+`if .. else`  
+`if .. else if .. else`  
+`loop { ... }`  
+`while condition { ... } `  
 
 > ## Size in memory
 ```rust
