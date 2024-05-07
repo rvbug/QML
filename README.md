@@ -15,7 +15,7 @@
 ---
 # Inspiration
 
-My inspiration to work on Quantum Gravity is drawn from 2014 film [Interstellar](https://en.wikipedia.org/wiki/Interstellar_(film)) directed by [Nolan](https://en.wikipedia.org/wiki/Christopher_Nolan). 
+My inspiration to work on Quantum Gravity is drawn from [Interstellar](https://en.wikipedia.org/wiki/Interstellar_(film)) by [Nolan](https://en.wikipedia.org/wiki/Christopher_Nolan). 
 The black hole shown in the movie uses actual calculations which took more than 100+ hours to render.
 
 Noble Price winer and theoretical physicist [Kip Thorne](https://en.wikipedia.org/wiki/Kip_Thorne), was the scientific consultant for this movie. He is a long time friend and colleague Stephen Hawking and Carl Sagan. 
