@@ -146,6 +146,25 @@ let x = true
 println!("{}, x);
 
 ```
+
+> ## Expression
+
+```rust
+    let value :i32 = 5;
+
+  // output = 5
+    let result = value < 5;
+    println!("{}", result);
+
+  // output = 5
+    let result = if value < 5 {
+        true
+    }else {
+        false
+    };
+    println!("{}", result);
+```
+
 </details>
 
 <details>
