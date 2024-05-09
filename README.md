@@ -60,6 +60,11 @@ To run - use `cargo run --bin filename` or `cargp run -q --bin filename`
 
 ```
 
+> # &self vs Self
+self referes to the object you created out of Struct/Enums and it is already created somewhere in the program.  
+Self is the actual Struct/Enum itself  
+
+
 > ## Control flow & Loop
 
 `if .. else`  
