@@ -110,6 +110,29 @@ fn main() {
 - Every data will have only one onwer
 - Two variables cannot point to same memory location
 - You can transfer the ownership by assignment, passing value to a func or returning a value from a func
+```rust
+
+fn main() {
+  
+    let numbers = vec![1,2,3,4]; //main is the owner of variable number
+
+    // if 'numbers' is used, then for will take the ownership
+    // solution is to use borrowing '&numbers'
+
+    for display in &numbers { 
+        match display {
+            3 => println!("three"),
+            _ => println!("{}", display),
+        }
+    }
+
+    println!("length of the vector is {} ", &numbers.len());
+}
+
+
+```
+
+
 
 > ## Comments
 running `cargo doc` will create a document under taget > doc > all HTML created. run `cargo doc --open` 
@@ -176,17 +199,46 @@ println!("{}, x);
   <summary> Strings, Vectors & Hashmaps </summary>
 
 > ## Strings
-```rust
-  // String Literal = &str is stored on stack and used when the size is known as compiled time.
-  // String Object = String::new() and String::from()
-  let stack_name: &str = "hello from stack";
-  let heap_name_from = String::from("hello from heap");
-  let mut heap_name_new = String::new();
-  heap_name_new.push_str("hello from heap new");
+String Literal = &str is stored on stack and used when the size is known as compiled time. 
+Use &str (string slice) while passing to a function. 
+In structs use String (owned string), because when struct goes out of scope, it is responsible for cleaning up memory.
 
-  let name = &"rvbug".to_string()[0..4];
-  // let show = &name[0..4];
-  println!("{}", &name);
+
+
+```rust
+
+// this is a string slice and is automatically borrowed
+let name = "hello" 
+
+// 2 options for owned string 
+let owned1 = "owned_string".to_owned();
+let owned2 = String::from("owned_option_2");
+let owned3 = String::new();
+
+let str_slice = "rakesh string";
+let owned_str = "owned".to_owned();
+let str_string = String::from("owned from String");
+
+fn print(s : &str) {
+  ...
+}
+
+print(str_slice); // we do not need to add &str_slice
+print(&owned_str); 
+print(&str_string);
+
+// in struct
+struct Emp {
+    name: String,
+}
+let emp2 = Emp {
+    name: String::from("hello"),
+};
+
+print(&emp2.name);
+
+
+
 ```
 
 > ## Vectors
@@ -448,6 +500,24 @@ if let Shapes:: Square {length} == Square {
 </details>
 
 <details>
+  <summary> Derive </summary>
+
+> # derive
+To implement a functionality on a struct or enums we use derive macro.
+If you want to copy a struct or enum then use `#[derive(Debug , Clone, Copy]`. 
+Use it when you have smaller struct or enum to avoid expensive copy
+
+```rust
+  //no reference is required 
+  fn print_name(name: Employee_Struct) { .. }
+  
+
+```
+
+</details>
+
+
+<details>
   <summary> Iterators </summary>
  > ## Iterators
  If you use iter_into() then it will own the data instead of slices
@@ -579,7 +649,7 @@ Advanced
 - Macros
 - &str & String
 - Stack vs Heap
-- #[derive(Debug)]
+
 - Associated types 
 - Processes
 - Threads (how to view processes and their associated threads - project)
