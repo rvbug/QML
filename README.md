@@ -41,6 +41,17 @@ Quantum Gravity (QG) helps describe gravity according to the principles of quant
 <details>
   <summary> Intro to Rust </summary>
 
+  ## Additional Info
+  - Vectors are generic datatype which holds other data types
+    ```rust
+      let numbers : Vec<char> = vec!['a', 'b', 'c'];
+      let clicks : Vec<Mouse> = vec![
+        Mouse::LeftClick,
+        Mouse::RightClick,
+    
+      ];
+    ```
+
   ## Basics
 
 > ## Essentials
@@ -473,7 +484,8 @@ p.display_point();
 ```
 
 > ## Enums 
-For grouping related things and use for choice. Associated values are also a feature to store additional data.
+For grouping related things and use for choice. Associated values are also a feature to store additional data.  
+
 ``` rust
 
 // simple enums
@@ -483,7 +495,6 @@ dog,
 }
 
 // associate values
-
 enum Shapes {
   Square {length : f64}
   Circle { radius : f64 }
@@ -494,8 +505,26 @@ if let Shapes:: Square {length} == Square {
   ....
 }
 
+```
+ There can be enum inside another enum
+ 
+ ```rust
+  enum PromoDiscount {
+    NewUser,
+    Holiday(String)
+}
+
+enum Discount {
+  Percent(f64),
+  Flat(i32),
+  Promo(PromoDiscount), // pick  NewUser or Holiday
+  Custom(String)
+
+}
 
 ```
+
+
 
 </details>
 
