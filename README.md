@@ -191,10 +191,13 @@ println!("{}, x);
 
 > ## Vectors
 ```rust
+
   // basic
+  // let mut vec = Vec::new();
   let mut vec: Vec<i64> = vec![1,2,3];
   println!("{:?}", &vec);
   vec.push(4);
+  vec.pop(); 
   println!("{:?}", vec);
 
   //simple example
