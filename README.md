@@ -482,6 +482,13 @@ p = Point::mut_twice(&mut self)
 p.display_point();
 
 ```
+Advanced Struct 
+```rust
+
+
+```
+
+
 
 > ## Enums 
 For grouping related things and use for choice. Associated values are also a feature to store additional data.  
@@ -524,7 +531,22 @@ enum Discount {
 
 ```
 
+Advanced Match
+```rust
+enum Discount {
 
+    Percent(i32),
+    Flat(i32),
+}
+
+let discount = Discount::Flat(2);
+match discount {
+  Discount::Flat(2) => println!("discount of 2%"),
+  Discount::Flat(other) => println!("discount of {}%", other),
+  _ => (), //ignor4 everything and return nothing
+}
+
+```
 
 </details>
 
