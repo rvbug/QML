@@ -191,10 +191,38 @@ println!("{}, x);
 
 > ## Vectors
 ```rust
+  // basic
   let mut vec: Vec<i64> = vec![1,2,3];
   println!("{:?}", &vec);
   vec.push(4);
   println!("{:?}", vec);
+
+  //simple example
+  let vector = vec![1,2,4,5];
+  for i in vector {
+    println!("value is : {}", i);
+  }
+  
+
+  // another example
+
+  struct TestScore {
+    name: String,
+    score: u32,
+  }
+
+  let vector = vec![
+    TestScore {name: "john".to_string(), score : 95 },
+    TestScore {name: "doe".to_string(), score : 97 },
+  ];
+
+  for i in vector {
+    println!{"Name : {}, Score: {}", i.name, i.score);
+    // for this to work, you need to use debug trait
+    //println!("{:?}", i);
+  }
+
+
 ```
 
 > ## HashMap
