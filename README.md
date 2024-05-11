@@ -587,7 +587,14 @@ println!("{:?}", new_values);
   <summary> Options </summary>
   
 > ## Options
-will either have a value or none
+Either have a value or none. It is an enum as show below
+```rust
+  enum Option<T> {
+    Some (T),
+    None
+  }
+```
+
 ```rust
 
  let name: Option<String> = Some("John".to_string());
