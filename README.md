@@ -39,6 +39,14 @@ Quantum Gravity (QG) helps describe gravity according to the principles of quant
 
 
 
+## Penrose Diagram
+Penrose diagram helps in navigating inside a black hole
+
+
+
+
+
+
 
 <br>
 
