@@ -1,5 +1,3 @@
-![wormhole-distance-plot](https://github.com/user-attachments/assets/c52e3276-0559-46f4-8e01-9465e2208eaf)
-<p align="center"> <img height=200 align=center src="https://scitechdaily.com/images/Black-Hole-Accetion-Disc-Art-Illustration-1536x864.jpg"> </p>
 
 
 ---
