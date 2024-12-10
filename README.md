@@ -1,4 +1,4 @@
-
+![wormhole-distance-plot](https://github.com/user-attachments/assets/c52e3276-0559-46f4-8e01-9465e2208eaf)
 <p align="center"> <img height=200 align=center src="https://scitechdaily.com/images/Black-Hole-Accetion-Disc-Art-Illustration-1536x864.jpg"> </p>
 
 
@@ -37,6 +37,48 @@ This [Book](https://en.wikipedia.org/wiki/The_Science_of_Interstellar) explains 
 Quantum Gravity (QG) helps describe gravity according to the principles of quantum mechanics and will help us to understand what happens near black hole and at the moment of singularity.
 <br>
 
+
+# Wormhole program
+
+### Wormhole Distance Equation:
+The function wormhole_distance() implements the simplified equation we discussed in the blog post:
+
+d = c * t / √(1 - v²/c²)  
+
+Where   
+d is distance  
+c is speed of light  
+t is time   
+v is velocity  
+
+
+### Visualization Approach:
+
+The code generates a plot showing how distance changes as velocity increases
+It calculates normalized distances at different percentages of light speed
+The x-axis represents velocity (0-100% of light speed)
+The y-axis shows the normalized distance
+
+
+### Key Observations:
+
+As velocity approaches the speed of light, the distance increases dramatically
+This illustrates the time dilation effect described in Kip Thorne's book
+The green dots and red line help visualize how distance behaves non-linearly
+
+
+
+### Dependencies:
+
+Add plotters = "0.3.0" to  Cargo.toml file
+The code generates a PNG image called wormhole_distance_plot.png
+
+# Practical Implications:
+This visualization helps beginners understand how:
+
+- Time and distance are not absolute
+- Velocity dramatically affects spacetime
+- Concepts from "Interstellar" have real mathematical foundations
 
 
 ## Penrose Diagram
